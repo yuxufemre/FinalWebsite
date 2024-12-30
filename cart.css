@@ -1,0 +1,144 @@
+/* Cart Page Styles */
+
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #f7f3ef;
+    color: #4a3c31;
+}
+
+header {
+    background-color: #4a3c31;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #f9a825;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cart-container {
+    padding: 2rem 10%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f5ece3;
+    font-weight: bold;
+}
+
+.cart-table td {
+    background-color: #fff;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #4a3c31;
+}
+
+#total-price {
+    font-weight: bold;
+    color: #f9a825;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4a3c31;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f9a825;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #f9a825;
+}
+footer {
+    background-color: #4a3c31;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.login-button {
+    padding: 0.75rem 2rem;
+    background-color: #4a3c31;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #f9a825;
+}
